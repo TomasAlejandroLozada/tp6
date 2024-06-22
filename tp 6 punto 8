@@ -1,0 +1,15 @@
+<?php
+$color = "azul"; // Ejemplo de color que no es ni "rojo" ni "verde"
+
+switch ($color) {
+    case "rojo":
+        echo "Hola";
+        break;
+    case "verde":
+        echo "Bienvenido";
+        break;
+    default:
+        echo "Ninguno";
+        break;
+}
+?>
