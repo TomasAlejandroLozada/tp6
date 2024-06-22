@@ -1,0 +1,16 @@
+<?php
+$color = "verde";
+
+switch ($color) {
+    case "rojo":
+        echo "Hola";
+        break;
+    case "verde":
+        echo "Bienvenido";
+        break;
+    default:
+        // En caso de que $color no sea ni "rojo" ni "verde"
+        echo "Color no reconocido";
+        break;
+}
+?>
