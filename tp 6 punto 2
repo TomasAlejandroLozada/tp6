@@ -1,0 +1,11 @@
+<?php
+$precio = 90;
+$cantidad = 2;
+$total = $precio * $cantidad;
+
+// String que incorpora las variables en tiempo de ejecución
+$mensaje = "El total a pagar por $cantidad computadoras es $total.";
+
+// Mostrar el mensaje
+echo $mensaje;
+?>
