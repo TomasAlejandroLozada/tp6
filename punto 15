@@ -1,0 +1,22 @@
+<?php
+$A = 5;
+$B = 3;
+$C = -12;
+
+echo "1. \$A > 3: " . (($A > 3) ? "true" : "false") . "<br>";
+echo "2. \$A > \$C: " . (($A > $C) ? "true" : "false") . "<br>";
+echo "3. \$A < \$C: " . (($A < $C) ? "true" : "false") . "<br>";
+echo "4. \$B < \$C: " . (($B < $C) ? "true" : "false") . "<br>";
+echo "5. \$B != \$C: " . (($B != $C) ? "true" : "false") . "<br>";
+echo "6. \$A == 3: " . (($A == 3) ? "true" : "false") . "<br>";
+echo "7. \$A * \$B == 15: " . (($A * $B == 15) ? "true" : "false") . "<br>";
+echo "8. \$A * \$B == -30: " . (($A * $B == -30) ? "true" : "false") . "<br>";
+echo "9. \$C / \$B < \$A: " . (($C / $B < $A) ? "true" : "false") . "<br>";
+echo "10. \$C / \$B == -10: " . (($C / $B == -10) ? "true" : "false") . "<br>";
+echo "11. \$C / \$B == -4: " . (($C / $B == -4) ? "true" : "false") . "<br>";
+echo "12. \$A + \$B + \$C == 5: " . (($A + $B + $C == 5) ? "true" : "false") . "<br>";
+echo "13. (\$A+\$B == 8) && (\$A-\$B == 2): " . ((($A + $B == 8) && ($A - $B == 2)) ? "true" : "false") . "<br>";
+echo "14. (\$A+\$B == 8) || (\$A-\$B == 6): " . ((($A + $B == 8) || ($A - $B == 6)) ? "true" : "false") . "<br>";
+echo "15. \$A > 3 && \$B > 3 && \$C < 3: " . (($A > 3 && $B > 3 && $C < 3) ? "true" : "false") . "<br>";
+echo "16. \$A > 3 && \$B >= 3 && \$C < -3: " . (($A > 3 && $B >= 3 && $C < -3) ? "true" : "false") . "<br>";
+?>
