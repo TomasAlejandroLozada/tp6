@@ -1,0 +1,11 @@
+<?php
+$num = rand(1, 100); // Genera un número aleatorio entre 1 y 100
+
+echo "Número generado: $num<br>";
+
+if ($num <= 50) {
+    echo "El número generado es menor o igual a 50.";
+} else {
+    echo "El número generado es mayor que 50.";
+}
+?>
